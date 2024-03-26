@@ -5,8 +5,7 @@
 #define ROW 5
 
 int main() {
-    int row;
-    int column;
+    int row, column;
 
     for(row = 0; row < ROW; row++){
         for(column = 0; column <= row; column++){
